@@ -1,16 +1,13 @@
 # PHP 8 attribute to register Laravel model observers. 
 
+[![tests](https://github.com/gpanos/laravel-observe-attribute/actions/workflows/tests.yml/badge.svg)](https://github.com/gpanos/laravel-observe-attribute/actions/workflows/tests.yml)
+[![code style](https://github.com/gpanos/laravel-observe-attribute/actions/workflows/code-style.yml/badge.svg)](https://github.com/gpanos/laravel-observe-attribute/actions/workflows/code-style.yml)
+
 Instead of defining [observers](https://laravel.com/docs/8.x/eloquent#observers) inside service providers this package offers an alternative way to register model observers for your Laravel applications.
 
+Inspired by [spatie/laravel-route-attributes](https://github.com/spatie/laravel-route-attributes)
+
 ## Installation 
-
-Under development. For now make sure to configure the repository in your composer.json by running:
-
-```bash
-composer config repositories.laravel-observe-attribute vcs https://github.com/gpanos/laravel-observe-attribute
-```
-
-Then install the package by running:
 
 ```bash
 composer require gpanos/laravel-observe-attribute
